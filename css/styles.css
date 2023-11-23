@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right top, #fccfa4, #fee9c7); /* Degradado en tono champagne */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Seccion de presentacion */
+.seccion-presentacion {
+    text-align: center;
+    padding: 20px;
+}
+
+.seccion-presentacion h1 {
+    color: #864d21; /* Color de texto personalizado */
+}
+
+/* Seccion de palabras alucivas */
+.seccion-palabras-alucivas {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Seccion de lugar y hora de la iglesia */
+.seccion-iglesia {
+    text-align: center;
+    padding: 20px;
+}
+
+.icono-iglesia {
+    width: 50px; /* Tamaño del icono de la iglesia */
+    height: 50px;
+}
+
+/* Seccion lugar y hora del evento */
+.seccion-evento {
+    text-align: center;
+    padding: 20px;
+}
+
+.icono-globos {
+    width: 50px; /* Tamaño del icono de globos */
+    height: 50px;
+}
+
+/* Seccion de Agradecimiento */
+.seccion-agradecimiento {
+    text-align: center;
+    padding: 20px;
+}
+
+.foto-agradecimiento {
+    width: 100%; /* La imagen ocupa todo el ancho de su contenedor */
+    height: auto; /* Se ajusta automáticamente a la proporción original */
+}
+
+/* Estilos generales para botones */
+button {
+    background-color: #864d21; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para pantallas más pequeñas (Responsive) */
+@media screen and (max-width: 360px) {
+    .seccion-presentacion,
+    .seccion-palabras-alucivas,
+    .seccion-iglesia,
+    .seccion-evento,
+    .seccion-agradecimiento {
+        padding: 10px;
+    }
+}
