@@ -5,7 +5,7 @@
   
 }
 body {
-    font-family: 'Perfect Garden', sans-serif;
+   
     margin: 0;
     padding: 0;
     /* background: linear-gradient(to right top, #fccfa4, #f8e5c6); Degradado en tono champagne */
@@ -37,7 +37,7 @@ section {
     background-image: url('/assets/fondo.jpg'); /* Reemplaza 'fondo-floral2.jpg' con tu imagen floral */
 } 
 .seccion-presentacion h1 {
-    color: #864d21; /* Color de texto personalizado */
+    color: #776C60; /* Color de texto personalizado */
 }
 .icono-quince {
     width: 200px; /* Tamaño del icono de la iglesia */
@@ -51,13 +51,14 @@ section {
 
 /* Seccion de lugar y hora de la iglesia */
 .seccion-iglesia {
+    font-family: 'Perfect Garden', sans-serif;
     text-align: center;
     padding: 20px;
 }
 
 .icono-iglesia {
-    width: 50px; /* Tamaño del icono de la iglesia */
-    height: 50px;
+    width: 100px; /* Tamaño del icono de la iglesia */
+    height: 100px;
 }
 
 /* Seccion lugar y hora del evento */
@@ -67,8 +68,8 @@ section {
 }
 
 .icono-globos {
-    width: 50px; /* Tamaño del icono de globos */
-    height: 50px;
+    width: 100px; /* Tamaño del icono de globos */
+    height: 100px;
 }
 
 /* Seccion de Agradecimiento */
@@ -78,7 +79,7 @@ section {
 }
 
 .foto-agradecimiento {
-    width: 50%; /* La imagen ocupa todo el ancho de su contenedor */
+    width: 100px; /* La imagen ocupa todo el ancho de su contenedor */
     height: auto; 
     border-radius: 100%;
 
@@ -86,7 +87,7 @@ section {
 
 /* Estilos generales para botones */
 button {
-    background-color: #864d21; /* Color de fondo del botón */
+    background-color: #776C60; /* Color de fondo del botón */
     color: #fff; /* Color de texto del botón */
     padding: 10px 20px;
     border: none;
