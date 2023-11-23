@@ -1,107 +1,147 @@
 
 @font-face {
     font-family: 'Perfect Garden';
-    src: url('/assetts/Perfect_Garden.ttf') format('truetype'); /* Ajusta la ruta según la ubicación de tus archivos de fuente */
+    src: url('/assetts/Perfect_Garden.ttf') format('truetype'); 
+    font-family: 'Abhaya Libre';
+    src: url('/assetts/AbhayaLibre-Regular.ttf') format('truetype');
+    
+    
   
 }
-body {
-   
+* {
     margin: 0;
     padding: 0;
-    /* background: linear-gradient(to right top, #fccfa4, #f8e5c6); Degradado en tono champagne */
-    /* background: linear-gradient(to right top, #f9eadd, #edd7b3); Degradado en tono champagne */
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Abhaya Libre', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilos generales de la sección */
 .container {
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
-    /* background: linear-gradient(to right top, #a28367, #d1bfa0);  */
+    padding: 20px;
 }
-/* Establece el tamaño de cada sección al 100% de la altura visible */
-section {
-    height: 100vh;
-}
-/* Seccion de presentacion */
+
+/* Sección de presentación */
 .seccion-presentacion {
+    background-image: url('/assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #776C60;
     text-align: center;
-    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.seccion-presentacion, 
-.seccion-palabras-alucivas,
-.seccion-iglesia,
-.seccion-evento,
-.seccion-agradecimiento {
+/* Sección de subtítulo */
+.seccion-subtitulo {
+    background-image: url('/assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
     text-align: center;
-    padding: 20px;
-    background-image: url('/assets/fondo.jpg'); /* Reemplaza 'fondo-floral2.jpg' con tu imagen floral */
-} 
-.seccion-presentacion h1 {
-    color: #776C60; /* Color de texto personalizado */
-}
-.icono-quince {
-    width: 200px; /* Tamaño del icono de la iglesia */
-    height:auto;
-}
-/* Seccion de palabras alucivas */
-.seccion-palabras-alucivas {
-    text-align: center;
-    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Seccion de lugar y hora de la iglesia */
+/* Sección de la iglesia */
 .seccion-iglesia {
-    font-family: 'Perfect Garden', sans-serif;
+    background-image: url('/assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #776C60;
     text-align: center;
-    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.icono-iglesia {
-    width: 100px; /* Tamaño del icono de la iglesia */
-    height: 100px;
-}
-
-/* Seccion lugar y hora del evento */
+/* Sección del evento */
 .seccion-evento {
+    background-image: url('/assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #776C60;
     text-align: center;
-    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.icono-globos {
-    width: 100px; /* Tamaño del icono de globos */
-    height: 100px;
-}
-
-/* Seccion de Agradecimiento */
+/* Sección de agradecimiento */
 .seccion-agradecimiento {
+    background-image: url('/assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #776C60;
     text-align: center;
-    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.foto-agradecimiento {
-    width: 100px; /* La imagen ocupa todo el ancho de su contenedor */
-    height: auto; 
-    border-radius: 100%;
-
+/* Estilos comunes para títulos */
+.titulo {
+    font-family: 'Perfect Garden', sans-serif;
+    font-size: 4em;
+    margin-bottom: 10px;
 }
 
-/* Estilos generales para botones */
-button {
+/* Estilos comunes para texto */
+.texto {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-mapa {
     background-color: #776C60; /* Color de fondo del botón */
     color: #fff; /* Color de texto del botón */
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    text-decoration: none;
+    border: none;
+    margin-top: 20px;
 }
 
-/* Estilos para pantallas más pequeñas (Responsive) */
-@media screen and (max-width: 360px) {
-    .seccion-presentacion,
-    .seccion-palabras-alucivas,
-    .seccion-iglesia,
-    .seccion-evento,
-    .seccion-agradecimiento {
-        padding: 10px;
-    }
+/* Estilos específicos para las imágenes de iconos */
+.icono-quince {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+ .foto-agradecimiento{
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+ }
+ .icono-iglesia, .icono-globos {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Estilos específicos para la imagen de la cruz */
+.seccion-subtitulo img {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.icono-ubicacion{
+    width: 10px;
+    height:auto;
+    margin-left: 5px;
 }
