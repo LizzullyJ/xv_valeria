@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     /* background: linear-gradient(to right top, #fccfa4, #f8e5c6); Degradado en tono champagne */
-    background: linear-gradient(to right top, #f9eadd, #edd7b3); /* Degradado en tono champagne */
+    /* background: linear-gradient(to right top, #f9eadd, #edd7b3); Degradado en tono champagne */
 }
 
 .container {
