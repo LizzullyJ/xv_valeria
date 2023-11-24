@@ -1,129 +1,105 @@
-
-
-/* Estilo general para el cuerpo de la página */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Abhaya Libre', sans-serif;
-    /* Font principal */
 }
 
-/* Estilo para las secciones */
-section {
-    /* height: 100vh; */
-    /* Tamaño de la pantalla del dispositivo */
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    /* position: relative; */
-}
-
-/* Estilo para el contenedor interno de cada sección */
+/* Estilos generales */
 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
 }
 
-/* Estilos para la sección de presentación */
+/* Seccion de presentacion */
 .seccion-presentacion {
-    background: url('../assets/fondo.jpg') center/cover;
-    /* Imagen de fondo */
-    color: #776C60;
+    background-image: url('../assets/fondo3.png'); /* Reemplaza 'ruta/a/tu/imagen1.jpg' con la ruta correcta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #776C60; /* Color de texto para que sea legible en el fondo */
+    /* height: 100vh; */
 }
 
-/* Estilos para la sección de palabras alusivas */
-.seccion-subtitulo {
-    background: url('../assets/fondo.jpg') center/cover;
-    /* Imagen de fondo */
-    color: #776C60;
+/* Seccion de lugar y hora */
+.seccion-lugar-hora {
+    background-image: url('../assets/fondo4.png'); /* Reemplaza 'ruta/a/tu/imagen2.jpg' con la ruta correcta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #776C60; /* Color de texto para que sea legible en el fondo */
+    /* height: 100vh; */
 }
 
-/* Estilos para la sección de lugar y hora de la iglesia */
-.seccion-iglesia {
-    background: url('../assets/fondo.jpg') center/cover;
-    /* Imagen de fondo */
-    color: #776C60;
-}
-
-/* Estilos para la sección de lugar y hora del evento */
-.seccion-evento {
-    background: url('assets/fondo4.jpg') center/cover;
-    /* Imagen de fondo */
-    color: #776C60;
-}
-
-/* Estilos para la sección de agradecimiento */
+/* Seccion de Agradecimiento */
 .seccion-agradecimiento {
-    background: url('assets/fondo5.jpg') center/cover;
-    /* Imagen de fondo */
-    color: #776C60;
+    background-image: url('../assets/fondo2.png'); /* Reemplaza 'ruta/a/tu/imagen3.jpg' con la ruta correcta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #776C60; /* Color de texto para que sea legible en el fondo */
+    /* height: 100vh; */
 }
 
-/* Estilo para el título */
-.titulo {
-    font-family: 'Parisienne', serif;
-    /* Otra fuente para el título */
-    font-size: 2em;
-    margin-bottom: 10px;
+/* Estilos para el contenido en todas las secciones */
+.icono-quince{
+    width: 150px; height: auto;
 }
+.icono-fecha{
+    width: 250px; height: auto;
+}
+.icono-iglesia,
+.icono-globos{
+    width: 100px; 
+    height: 100px;
+}
+.icono-cruz,
+.icono-ubicacion {
+    width: 10px;
+    height: auto;
+}
+
+
 .nombre {
-    font-family: 'Parisienne', serif;
-    /* Otra fuente para el título */
+    font-family: 'Monsieur La Doulaise', cursive;
     font-size: 4em;
     margin-bottom: 10px;
 }
-/* Estilo para el subtitulo */
+.titulo {
+    font-family: 'Alex Brush', cursive;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
 .subtitulo {
     font-size: 1.5em;
     margin: 5px 0;
 }
 
-/* Estilo para el texto general */
 .texto {
     font-size: 1em;
     margin: 10px 0;
 }
 
-/* Estilo para los botones y enlaces */
 .btn-mapa {
     background-color: #776C60;
     color: white;
     padding: 10px 20px;
+    text-align: center;
     text-decoration: none;
-    border: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
     cursor: pointer;
-    margin-top: 15px;
-    border-radius: 20px;
 }
 
-/* Estilos específicos para las imágenes de iconos */
-.icono-quince {
-    width: 250px;
-    height: auto;
-    
-}
-
+/* Estilos adicionales para adornos florales */
 .foto-agradecimiento {
-    width: 300px;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.icono-iglesia,
-.icono-globos {
-    width: 100px;
+    width: 100px; /* Ajusta el tamaño según sea necesario */
     height: 100px;
-    margin-bottom: 20px;
 }
 
-/* Estilos específicos para la imagen de la cruz */
-.seccion-subtitulo img {
-    width: 5px;
-    height: 5px;
-    margin-left: 5px;
-}
-
-.icono-ubicacion {
-    width: 10px;
-    height: auto;
-    margin-left: 5px;
+/* Estilos de responsividad */
+@media only screen and (max-width: 300px) {
+    /* Ajustes para dispositivos móviles */
+    .container {
+        padding: 10px;
+    }
 }
