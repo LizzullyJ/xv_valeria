@@ -1,29 +1,21 @@
-@font-face {
-    font-family: 'Perfect Garden';
-    src: url('/assetts/Perfect_Garden.ttf') format('truetype');
-    font-family: 'Abhaya Libre';
-    src: url('/assetts/AbhayaLibre-Regular.ttf') format('truetype');
 
-
-
-}
 
 /* Estilo general para el cuerpo de la página */
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Abhaya Libre', sans-serif;
     /* Font principal */
 }
 
 /* Estilo para las secciones */
 section {
-    height: 100vh;
+    /* height: 100vh; */
     /* Tamaño de la pantalla del dispositivo */
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
 
 /* Estilo para el contenedor interno de cada sección */
@@ -33,21 +25,21 @@ section {
 
 /* Estilos para la sección de presentación */
 .seccion-presentacion {
-    background: url('/assets/fondo.jpg') center/cover;
+    background: url('../assets/fondo.jpg') center/cover;
     /* Imagen de fondo */
     color: #776C60;
 }
 
 /* Estilos para la sección de palabras alusivas */
 .seccion-subtitulo {
-    background: url('/assets/fondo.jpg') center/cover;
+    background: url('../assets/fondo.jpg') center/cover;
     /* Imagen de fondo */
     color: #776C60;
 }
 
 /* Estilos para la sección de lugar y hora de la iglesia */
 .seccion-iglesia {
-    background: url('/assets/fondo.jpg') center/cover;
+    background: url('../assets/fondo.jpg') center/cover;
     /* Imagen de fondo */
     color: #776C60;
 }
@@ -68,12 +60,17 @@ section {
 
 /* Estilo para el título */
 .titulo {
-    font-family: 'Georgia', serif;
+    font-family: 'Parisienne', serif;
     /* Otra fuente para el título */
     font-size: 2em;
     margin-bottom: 10px;
 }
-
+.nombre {
+    font-family: 'Parisienne', serif;
+    /* Otra fuente para el título */
+    font-size: 4em;
+    margin-bottom: 10px;
+}
 /* Estilo para el subtitulo */
 .subtitulo {
     font-size: 1.5em;
@@ -102,7 +99,7 @@ section {
 .icono-quince {
     width: 250px;
     height: auto;
-    margin-bottom: 20px;
+    
 }
 
 .foto-agradecimiento {
@@ -120,8 +117,8 @@ section {
 
 /* Estilos específicos para la imagen de la cruz */
 .seccion-subtitulo img {
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     margin-left: 5px;
 }
 
