@@ -32,7 +32,7 @@ body {
 
 /* Seccion de Agradecimiento */
 .seccion-agradecimiento {
-    background-image: url('../assets/fondo4.png'); /* Reemplaza 'ruta/a/tu/imagen3.jpg' con la ruta correcta de tu imagen de fondo */
+    background-image: url('../assets/fondo5.png'); /* Reemplaza 'ruta/a/tu/imagen3.jpg' con la ruta correcta de tu imagen de fondo */
     background-size: cover;
     background-position: center;
     color: #776C60; /* Color de texto para que sea legible en el fondo */
